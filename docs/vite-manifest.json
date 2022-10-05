@@ -1,11 +1,11 @@
 {
-  "src/images/initial-view.jpeg": {
-    "file": "_app/immutable/assets/initial-view-00de910d.jpeg",
-    "src": "src/images/initial-view.jpeg"
-  },
   "src/images/calender-view.jpeg": {
     "file": "_app/immutable/assets/calender-view-deb41148.jpeg",
     "src": "src/images/calender-view.jpeg"
+  },
+  "src/images/initial-view.jpeg": {
+    "file": "_app/immutable/assets/initial-view-00de910d.jpeg",
+    "src": "src/images/initial-view.jpeg"
   },
   "src/images/booking-view.jpeg": {
     "file": "_app/immutable/assets/booking-view-ad8c9f99.jpeg",
@@ -15,21 +15,29 @@
     "file": "_app/immutable/assets/booking-searching-c3cb9dbc.jpeg",
     "src": "src/images/booking-searching.jpeg"
   },
+  "src/images/booking-found.jpeg": {
+    "file": "_app/immutable/assets/booking-found-9ccc9778.jpeg",
+    "src": "src/images/booking-found.jpeg"
+  },
   "src/images/book-case.jpeg": {
     "file": "_app/immutable/assets/book-case-befa67b9.jpeg",
     "src": "src/images/book-case.jpeg"
   },
-  "src/images/booking-found.jpeg": {
-    "file": "_app/immutable/assets/booking-found-9ccc9778.jpeg",
-    "src": "src/images/booking-found.jpeg"
+  "src/images/time-picker.jpeg": {
+    "file": "_app/immutable/assets/time-picker-54e8c39e.jpeg",
+    "src": "src/images/time-picker.jpeg"
+  },
+  "src/images/book-case-room-selected.jpeg": {
+    "file": "_app/immutable/assets/book-case-room-selected-2402a97d.jpeg",
+    "src": "src/images/book-case-room-selected.jpeg"
   },
   "src/images/station-picker.jpeg": {
     "file": "_app/immutable/assets/station-picker-1e605fa8.jpeg",
     "src": "src/images/station-picker.jpeg"
   },
-  "src/images/time-picker.jpeg": {
-    "file": "_app/immutable/assets/time-picker-54e8c39e.jpeg",
-    "src": "src/images/time-picker.jpeg"
+  "src/images/select-station.jpeg": {
+    "file": "_app/immutable/assets/select-station-b48ef735.jpeg",
+    "src": "src/images/select-station.jpeg"
   },
   "src/images/time-picker-with-station.jpeg": {
     "file": "_app/immutable/assets/time-picker-with-station-befa6746.jpeg",
@@ -43,21 +51,13 @@
     "file": "_app/immutable/assets/booking-submitted-2ea62a43.jpeg",
     "src": "src/images/booking-submitted.jpeg"
   },
-  "src/images/book-case-room-selected.jpeg": {
-    "file": "_app/immutable/assets/book-case-room-selected-2402a97d.jpeg",
-    "src": "src/images/book-case-room-selected.jpeg"
-  },
-  "src/images/select-station.jpeg": {
-    "file": "_app/immutable/assets/select-station-b48ef735.jpeg",
-    "src": "src/images/select-station.jpeg"
-  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-f955dafb.js",
+    "file": "_app/immutable/start-a280077b.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-1fab3784.js",
-      "_singletons-b3c48972.js"
+      "_singletons-f5b60a7c.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -74,21 +74,21 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-353e8837.js",
+    "file": "_app/immutable/components/error.svelte-36721cb0.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-1fab3784.js",
-      "_stores-3cdfa18c.js"
+      "_stores-dc2f8da3.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-b1f67996.js",
+    "file": "_app/immutable/components/pages/_page.svelte-dbd87f96.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-1fab3784.js",
-      "_stores-3cdfa18c.js"
+      "_stores-dc2f8da3.js"
     ],
     "css": [
       "_app/immutable/assets/_page-8d4b96f9.css"
@@ -109,8 +109,8 @@
       "_app/immutable/assets/booking-submitted-2ea62a43.jpeg"
     ]
   },
-  "_singletons-b3c48972.js": {
-    "file": "_app/immutable/chunks/singletons-b3c48972.js",
+  "_singletons-f5b60a7c.js": {
+    "file": "_app/immutable/chunks/singletons-f5b60a7c.js",
     "imports": [
       "_index-1fab3784.js"
     ]
@@ -118,11 +118,11 @@
   "_index-1fab3784.js": {
     "file": "_app/immutable/chunks/index-1fab3784.js"
   },
-  "_stores-3cdfa18c.js": {
-    "file": "_app/immutable/chunks/stores-3cdfa18c.js",
+  "_stores-dc2f8da3.js": {
+    "file": "_app/immutable/chunks/stores-dc2f8da3.js",
     "imports": [
       "_index-1fab3784.js",
-      "_singletons-b3c48972.js"
+      "_singletons-f5b60a7c.js"
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
@@ -134,7 +134,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-fa2ff709.js",
+    "file": "_app/immutable/chunks/1-89bc402e.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -142,7 +142,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-08347852.js",
+    "file": "_app/immutable/chunks/2-d8ce8a1b.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
