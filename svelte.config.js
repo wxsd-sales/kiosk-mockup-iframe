@@ -16,7 +16,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		paths: {
-			base: dev ? "" : "/kiosk-mockups-iframe",
+			base: dev ? "" : "/kiosk-mockup-iframe",
 		},
 	}
 };
